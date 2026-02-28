@@ -1,3 +1,5 @@
+Section A: doGet() Based Tasks
+
 form.html
 Name: pramit patel
 Email: pramitpatel37@gmail.com
@@ -46,4 +48,8 @@ RollNo	  217
 Course	  cyber security
 
 Back to Form
+
+HTTP.html
+HTTP Method Used: GET
+
 
