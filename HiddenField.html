@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hidden Field Example</title>
+    <style>
+        body { text-align: center; font-family: sans-serif; padding-top: 50px; }
+    </style>
+</head>
+<body>
+<h2>User Profile Submission</h2>
+<form action="submitProfile" method="post">
+    <input type="hidden" name="userid" value="101">
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
