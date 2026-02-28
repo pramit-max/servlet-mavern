@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+</head>
+<body>
+<h2>Student Registration Form</h2>
+<form action="StudentServlet" method="get">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required>
+    <br><br>
+
+    <label for="course">Course:</label>
+    <select id="course" name="course">
+        <option value="DSA">Data Structures & Algorithms</option>
+        <option value="DiscreteMath">Discrete Mathematics</option>
+        <option value="DigitalElectronics">Digital Electronics</option>
+        <option value="DataScience">Data Science</option>
+    </select>
+    <br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <input type="radio" name="gender" value="Other"> Other
+    <br><br>
+
+    <input type="submit" value="Register">
+</form>
+</body>
+</html>
+
+import jakarta.servlet.ServletException;
